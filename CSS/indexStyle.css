@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,100&display=swap');
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+body {
+    background-color: #96bb7c;
+}
+
+.container {
+    background-color: #184d47;
+    margin: 0px 70px 70px;
+}
+
+.signup {
+    margin-top: 100px;
+}
+
+.signup>label,
+input {
+    margin-top: 10px;
+}
+
+label {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #d6efc7;
+}
+
+input[type=submit] {
+    padding: 20px;
+    border: 2px solid #d6efc7;
+    border-radius: 30px;
+    background-color: #fad586;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=email] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #96bb7c;
+}
+
+p {
+    margin: 0px 35% 0px;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #d6efc7;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #d6efc7;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #d6efc7;
+}
